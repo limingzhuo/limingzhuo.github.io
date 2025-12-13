@@ -124,7 +124,7 @@ html.dark {
   --hty-secondary-text-color: #555;
   --post-block-bg-color: #fff;
   --smc-link-color: #0078e7;
-  --yun-bg-image: url("https://cdn.yunyoujun.cn/img/bg/stars-timing-0-blur-30px.jpg");
+  --yun-bg-image: url("https://blog.lmz82.eu.org/images/back.jpg");
   --banner-line-color: #000;
   --banner-char-color: #000;
 }
@@ -294,14 +294,14 @@ body::before {
   background-repeat: no-repeat;
   animation-name: bgFadeIn;
   animation-duration: 2s;
-  opacity: 1;
+  opacity: 0.8;
 }
 @-moz-keyframes bgFadeIn {
   from {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @-webkit-keyframes bgFadeIn {
@@ -309,7 +309,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @-o-keyframes bgFadeIn {
@@ -317,7 +317,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @keyframes bgFadeIn {
@@ -325,7 +325,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 :root {
@@ -2060,22 +2060,6 @@ body::before {
 }
 #github-issues {
   margin: 1rem;
-}
-#say {
-  color: var(--hty-text-color);
-  display: block;
-  text-align: center;
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
-  font-weight: bold;
-  padding: 0.5rem;
-  border-top: 1px solid var(--hty-secondary-text-color);
-  border-bottom: 1px solid var(--hty-secondary-text-color);
-}
-#say #say-content {
-  display: block;
-}
-#say #say-from {
-  display: block;
 }
 .notice {
   display: flex;
